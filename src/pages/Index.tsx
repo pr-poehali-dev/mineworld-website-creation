@@ -226,40 +226,23 @@ const Index = () => {
                 Скопируйте IP-адрес и добавьте сервер в свой список
               </p>
               
-              <div className="bg-muted pixel-corners p-6 mb-8">
-                <p className="text-sm text-muted-foreground mb-2">IP адрес сервера:</p>
-                <p className="text-3xl font-black text-primary font-mono">play.mineworld.ru</p>
-              </div>
-
               <Button 
                 size="lg"
                 className="pixel-corners text-xl font-bold bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-6"
-                onClick={() => {
-                  navigator.clipboard.writeText('play.mineworld.ru');
-                  alert('IP адрес скопирован!');
-                }}
+                onClick={() => window.open('https://t.me/@the_mort_helper', '_blank')}
               >
-                <Icon name="Copy" className="mr-2" size={24} />
-                Скопировать IP
+                <Icon name="Users" className="mr-2" size={24} />
+                Подключиться к серверу
               </Button>
             </div>
 
             <div className="border-t-4 border-border pt-8 mt-8">
               <h4 className="text-2xl font-bold mb-6 text-center">Наши социальные сети</h4>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-lg mx-auto">
                 <Button 
                   variant="outline" 
                   className="pixel-corners border-4 h-auto py-4 hover:scale-105 transition-transform"
-                >
-                  <div className="flex flex-col items-center gap-2">
-                    <Icon name="MessageCircle" size={32} />
-                    <span className="font-bold">Discord</span>
-                  </div>
-                </Button>
-                
-                <Button 
-                  variant="outline" 
-                  className="pixel-corners border-4 h-auto py-4 hover:scale-105 transition-transform"
+                  onClick={() => window.open('https://t.me/+yYeg2uUR9kQ1ZTBi', '_blank')}
                 >
                   <div className="flex flex-col items-center gap-2">
                     <Icon name="Send" size={32} />
@@ -281,7 +264,7 @@ const Index = () => {
 
             <div className="text-center mt-8 p-6 bg-accent/10 pixel-corners">
               <p className="text-sm text-muted-foreground">
-                По всем вопросам пишите администрации в Discord или Telegram
+                По всем вопросам пишите администрации в Telegram
               </p>
             </div>
           </Card>
