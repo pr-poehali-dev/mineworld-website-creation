@@ -223,7 +223,7 @@ const Index = () => {
               </div>
               <h3 className="text-3xl font-bold mb-4">Как подключиться?</h3>
               <p className="text-muted-foreground text-lg mb-6">
-                Скопируйте IP-адрес и добавьте сервер в свой список
+                Хотите подключиться? Присылайте свою заявку по кнопке ниже!
               </p>
               
               <Button 
