@@ -129,7 +129,7 @@ const Index = () => {
             О СЕРВЕРЕ
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
             <Card className="pixel-corners bg-card border-4 border-primary p-8">
               <div className="flex items-start gap-4">
                 <div className="w-16 h-16 bg-secondary pixel-corners flex items-center justify-center flex-shrink-0">
@@ -139,34 +139,6 @@ const Index = () => {
                   <h3 className="text-2xl font-bold mb-3">Производительность</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     Мощный сервер с высокой производительностью. Никаких лагов, только комфортная игра 24/7.
-                  </p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="pixel-corners bg-card border-4 border-secondary p-8">
-              <div className="flex items-start gap-4">
-                <div className="w-16 h-16 bg-accent pixel-corners flex items-center justify-center flex-shrink-0">
-                  <Icon name="Shield" size={32} className="text-accent-foreground" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-3">Безопасность</h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Защита территорий, приватные сундуки, честная администрация. Ваши постройки в безопасности.
-                  </p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="pixel-corners bg-card border-4 border-accent p-8">
-              <div className="flex items-start gap-4">
-                <div className="w-16 h-16 bg-primary pixel-corners flex items-center justify-center flex-shrink-0">
-                  <Icon name="Sparkles" size={32} className="text-primary-foreground" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-3">Уникальные плагины</h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Кастомные механики, новые предметы, квесты и ивенты. Играйте в новый Minecraft!
                   </p>
                 </div>
               </div>
