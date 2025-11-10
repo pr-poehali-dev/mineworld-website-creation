@@ -109,11 +109,9 @@ const Index = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-16 max-w-md mx-auto">
             {[
-              { icon: '🌍', title: 'Огромный мир', desc: 'Бесконечные возможности для исследования' },
-              { icon: '⚔️', title: 'PvP & PvE', desc: 'Сражайтесь с игроками и монстрами' },
-              { icon: '🏰', title: 'Свой дом', desc: 'Стройте города и замки' }
+              { icon: '🌍', title: 'Огромный мир', desc: 'Бесконечные возможности для исследования' }
             ].map((feature, idx) => (
               <Card key={idx} className="pixel-corners bg-card/90 backdrop-blur p-6 border-4 border-border hover:scale-105 transition-transform">
                 <div className="text-5xl mb-4">{feature.icon}</div>
@@ -195,7 +193,7 @@ const Index = () => {
               <div>
                 <div className="text-4xl mb-2">📦</div>
                 <p className="font-semibold text-lg">Версия</p>
-                <p className="text-muted-foreground">1.20.1</p>
+                <p className="text-muted-foreground">1.21.5 Fabric</p>
               </div>
               <div>
                 <div className="text-4xl mb-2">🎯</div>
