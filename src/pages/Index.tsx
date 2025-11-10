@@ -170,7 +170,7 @@ const Index = () => {
               <div>
                 <div className="text-4xl mb-2">🎯</div>
                 <p className="font-semibold text-lg">Режим</p>
-                <p className="text-muted-foreground">Survival / Creative</p>
+                <p className="text-muted-foreground">Survival</p>
               </div>
               <div>
                 <div className="text-4xl mb-2">👥</div>
