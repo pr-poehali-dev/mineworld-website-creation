@@ -253,6 +253,7 @@ const Index = () => {
                 <Button 
                   variant="outline" 
                   className="pixel-corners border-4 h-auto py-4 hover:scale-105 transition-transform"
+                  onClick={() => window.open('https://www.youtube.com/channel/UCQVXjxp0leNae3pyEWvERKg', '_blank')}
                 >
                   <div className="flex flex-col items-center gap-2">
                     <Icon name="Youtube" size={32} />
