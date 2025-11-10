@@ -231,8 +231,8 @@ const Index = () => {
                 className="pixel-corners text-xl font-bold bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-6"
                 onClick={() => window.open('https://t.me/@the_mort_helper', '_blank')}
               >
-                <Icon name="Users" className="mr-2" size={24} />
-                Подключиться к серверу
+                <Icon name="Send" className="mr-2" size={24} />
+                Прислать заявку
               </Button>
             </div>
 
